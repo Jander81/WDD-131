@@ -2,7 +2,7 @@ header {
     text-align: center;
 } 
 
-header p {
+header h2 {
     color:#006EB6 ;
 }
 
@@ -11,6 +11,10 @@ body {
     border:black;
     letter-spacing: 1px;
     
+}
+
+h2 {
+    font-size: 15px;
 }
 
 .italisize {
@@ -29,3 +33,15 @@ html, body{
     flex-direction: column;
     align-items: center;
   }
+
+.dark {
+
+   background-color: #333; 
+   color: white;
+
+}
+
+.dark h2 {
+
+    color: #A0D4ED;
+}

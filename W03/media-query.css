@@ -4,7 +4,7 @@ body {
 }
 
 header, main, footer {
-    
+
     max-width: 640px;
     margin: 1rem auto;
     border: 1px solid lightgrey;
@@ -30,6 +30,7 @@ section {
     }
 
     main {
+        
         grid-template-columns: 1fr, 1fr;
     }
 }

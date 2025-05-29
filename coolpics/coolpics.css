@@ -21,11 +21,17 @@ button {
     margin: 0;
 }
 
-.menu_links {
+.hide {
+    display: none !important;
+}
+
+#menu_links {
     display:grid;
     grid-template-columns: 1fr;
     gap:1rem;
 }
+
+
 
 h2 {
     text-align: center;
@@ -47,19 +53,21 @@ img {
     justify-items: center;
 }
 
+
+
 @media (min-width: 700px) {
-    
+
 
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
-
-
+    
 }
 
+
 @media (min-width: 1000px) {
-    .menu_links {
-        
+    #menu_links {
+        display: grid !important;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
